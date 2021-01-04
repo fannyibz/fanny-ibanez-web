@@ -1,0 +1,21 @@
+.title-home {
+  text-shadow: 2px 1px 1px #e84545;
+  font-weight: 300;
+  color: $gray-light;
+  margin-bottom: 20px;
+  h1 {
+    font-size: 400%;
+  }
+}
+
+p {
+  color: #eaeaea9c;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
