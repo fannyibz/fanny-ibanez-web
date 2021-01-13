@@ -4,18 +4,43 @@
   color: $gray-light;
   margin-bottom: 20px;
   h1 {
+    color: $gray-light;
     font-size: 400%;
   }
 }
 
-p {
-  color: #eaeaea9c;
-  font-size: 16px;
+body {
+  color : $gray-light;
   font-weight: 200;
 }
 
-.container {
+h1 {
+  font-weight: 300;
+  font-size: 400%;
+  color: $gray-light;
+  text-shadow: 2px 1px 1px #e84545;
+}
+
+h3 {
+  color:  $gray-light;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+p {
+  color: #eaeaea9c;
+  font-size: 14px;
+}
+
+.container-home {
   display: flex;
   align-items: center;
   height: 100vh;
+  margin-left: 170px;
+}
+
+.container {
+  height: 100vh;
+  margin-left: 170px;
+  margin-top: 80px;
 }
