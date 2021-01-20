@@ -1,3 +1,11 @@
+.container-cv {
+  margin: 0px;
+  padding:  80px 42px 0px 160px;
+  a {
+    color: #eaeaea99;
+  }
+}
+
 .skill-box {
     border-radius: 8px;
     box-shadow: 2px 2px 2px #0000007a;
@@ -37,5 +45,9 @@
     font-weight: 100;
     margin: 0px;
   }
+}
+
+.col.mockup-item {
+    max-width: 40%;
 }
 

@@ -21,15 +21,25 @@ h1 {
   text-shadow: 2px 1px 1px #e84545;
 }
 
+h2  {
+ background: linear-gradient(to top, $pink, $red);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  font-weight: 100;
+  font-size: 45px;
+  text-align: right;
+  margin-bottom: 50px;
+}
+
 h3 {
-  color:  $gray-light;
+  color:  #eaeaea99;
   font-weight: 100;
   font-size: 18px;
 }
 
 p {
-  color: #eaeaea9c;
-  font-size: 14px;
+  color: #ffffff6b;
+  font-size: 16px;
 }
 
 .container-home {
@@ -41,6 +51,5 @@ p {
 
 .container {
   height: 100vh;
-  margin-left: 170px;
   margin-top: 80px;
 }

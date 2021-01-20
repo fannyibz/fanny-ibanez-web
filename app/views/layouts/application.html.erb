@@ -13,6 +13,35 @@
   </head>
 
   <body class="background">
+    <div class="navbar">
+      <nav class="en">
+        <%= link_to root_path do %>
+          <i class="fas fa-home "></i>
+        <% end %>
+        <%= link_to cv_path do %>
+          <i class="fas fa-user"></i>
+        <% end %>
+        <%= link_to portfolio_path do %>
+          <i class="fas fa-eye"></i>
+        <% end %>
+        <%= link_to root_path do %>
+          <i class="fas fa-envelope"></i>
+        <% end %>
+      </nav>
+
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/fanny-ibanez/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/fannyibz" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
 
     <%= yield %>
   </body>
