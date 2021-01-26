@@ -22,8 +22,8 @@
     top: 30%;
     a {
       background: linear-gradient(to top, $pink, $red);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
       font-size: 25px;
       margin-bottom: 15px;
       display: block;
@@ -33,7 +33,7 @@
       text-decoration: none;
     }
     a:hover {
-      font-size: 30px;
+      font-size: 40px;
     }
   }
   ul {
@@ -48,6 +48,9 @@
     }
   }
 }
+
+
+
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
