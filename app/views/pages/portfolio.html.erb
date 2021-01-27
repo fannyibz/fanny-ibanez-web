@@ -4,63 +4,53 @@
     <h1>Portfolio</h1>
   </div>
 
+  <div class="project-box">
 
-  <div class="project-box-1">
-    <div class="row">
-
-      <div class="col-3 project-description-1" style="border-right: 1px solid #ffffff33">
+      <div class="project-description-1" style="border-right: 1px solid #ffffff33">
         <h2>Pong</h2>
         <p>A mobile app to improvise last minute event with friends.</p>
         <p>This rails prototype has been developped in team during Le Wagon coding bootcamp.</p>
-        <div class="gradient-box">
-          <%= link_to "👉 See More", "https://meetpong.herokuapp.com/" %>
+        <div class="gradient-btn">
+          <%= link_to "👉 See More", "https://meetpong.herokuapp.com/", target: :_blank %>
+        </div>
+      </div>
+      <div class="mockup-box">
+        <div class="mockup-item">
+          <%= image_tag "mockup/pong_map.png", height: "600", class: "mockup"%>
         </div>
 
-      </div>
-      <div class="col mockup-item">
-        <%= image_tag "mockup/pong_map.png", height: "600", class: "mockup"%>
-      </div>
+        <div class="mockup-item">
+          <%= image_tag "mockup/pong_event.png", height: "600", class: "mockup"%>
+        </div>
 
-      <div class="col mockup-item">
-        <%= image_tag "mockup/pong_event.png", height: "600", class: "mockup"%>
+        <div class="mockup-item">
+          <%= image_tag "mockup/pong_plans.png", height: "600", class: "mockup" %>
+        </div>
       </div>
-
-      <div class="col mockup-item">
-        <%= image_tag "mockup/pong_plans.png", height: "600", class: "mockup" %>
-      </div>
-    </div>
   </div>
 
-  <div class="project-box-2">
+  <div class="project-box">
 
-    <div class="row">
-      <div class="col laptop-item">
-        <%= image_tag "air_sup/1_air_sup.png", height: "600", class: "mockup"%>
+    <div class="laptop-box">
+      <div class="laptop-item-1">
+        <%= image_tag "air_sup/1_air_sup.png", width: "650"%>
       </div>
-      <div class="col-3 project-description-2" style="border-left: 1px solid #ffffff33">
-        <h2>Air_Sup_O</h2>
-        <p>A mobile app to improvise last minute event with friends.</p>
-        <p>This rails prototype has been developped in team during Le Wagon coding bootcamp.</p>
-        <div class="gradient-box">
-          <%= link_to "👉 See More", "https://meetpong.herokuapp.com/" %>
-        </div>
+
+      <div class="laptop-item-2">
+        <%= image_tag "air_sup/2_air_sup.png", width: "650"%>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col laptop-item">
-        <%= image_tag "air_sup/2_air_sup.png", height: "600", class: "mockup"%>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col laptop-item">
-        <%= image_tag "air_sup/3_air_sup.png", height: "600", class: "mockup"%>
+    <div class="project-description-2" style="border-left: 1px solid #ffffff33">
+      <h2>Air_Sup_O</h2>
+      <p>A mobile app to improvise last minute event with friends.</p>
+      <p>This rails prototype has been developped in team during Le Wagon coding bootcamp.</p>
+      <div class="gradient-btn">
+        <%= link_to "👉 See More", "https://airbnb-fannyibz.herokuapp.com/", target: :_blank%>
       </div>
     </div>
 
   </div>
-
 
 </div>
 

@@ -1,115 +1,105 @@
+.container-portfolio {
+  padding: 0px 0px 0px 130px;
+  // min-width: 1400px;
+}
+
 .title-portfolio {
-  padding: 80px 42px 0px 160px;
+  padding: 50px 42px 0px 160px;
   margin-bottom: 80px;
   // h1 {
   //   border-bottom: 1px solid white;
   // }
 }
 
-.project-box-1 {
-  padding: 40px 0px 40px 80px;
+
+.project-box {
+  display: flex;
+  margin-top: 160px;
 }
 
-.col.mockup-item {
-    max-width: 250px;
+.mockup-box {
+  display: flex;
+  padding-left: 50px;
 }
 
-.col.laptop-item {
-    max-width: 1200px;
+.mockup-item {
+  max-width: 250px;
 }
 
-img .mockup {
-    height: 100px;
-    position: relative;
-    // right: -500px;
+.laptop-box{
+  max-width: 964px;
+  max-height: 1050px;
 }
 
+.laptop-item-1 {
+  position: relative;
+  bottom: 105px;
+}
 
-.col-3.project-description-1 {
+.laptop-item-2 {
+  position: relative;
+  bottom: 345px;
+}
+
+.project-description-1 {
   // position: absolute;
+  max-width: 360px;
+  min-width: 360px;
   padding: 30px 50px 0px 0px;
-  margin-left: 90px;
   p {
     text-align: right;
   }
-  a {
-    text-decoration: none;
-    background: linear-gradient(to top, $pink, $red);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-  }
-  .gradient-box {
-    position: relative;
-    bottom: -130px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40%;
-    height: 50px;
-    margin: auto;
-    position: relative;
-    padding: 1px 1px;
-    box-sizing: border-box;
-    $border: 1px;
-    color: white;
-    background: $dark;
-    background-clip: padding-box; /* !importanté */
-    border: solid $border transparent; /* !importanté */
-    border-radius: 4px;
-    &:before {
-      content: '';
-      position: absolute;
-      top: 0; right: 0; bottom: 0; left: 0;
-      z-index: -1;
-      margin: -$border; /* !importanté */
-      border-radius: inherit; /* !importanté */
-      background: linear-gradient(to bottom, $pink, $red);
-    }
-  }
 }
 
-.col-3.project-description-2 {
+.project-description-2 {
   // position: absolute;
-  padding: 30px 50px 0px 0px;
-  margin-left: 90px;
+  max-width: 420px;
+  margin-right: 40px;
+  padding: 30px 0px 0px 50px;
+  h2 {
+    text-align: left;
+  }
   p {
     text-align: left;
   }
+}
+
+.gradient-btn {
+  position: relative;
+  bottom: -130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 50px;
+  margin: auto;
+  position: relative;
+  padding: 1px 1px;
+  box-sizing: border-box;
+  $border: 1px;
+  color: white;
+  background: $dark;
+  background-clip: padding-box; /* !importanté */
+  border: solid $border transparent; /* !importanté */
+  border-radius: 4px;
   a {
-    text-decoration: none;
-    background: linear-gradient(to top, $pink, $red);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  background: linear-gradient(to top, $pink, $red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
-  .gradient-box {
-    position: relative;
-    bottom: -130px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40%;
-    height: 50px;
-    margin: auto;
-    position: relative;
-    padding: 1px 1px;
-    box-sizing: border-box;
-    $border: 1px;
-    color: white;
-    background: $dark;
-    background-clip: padding-box; /* !importanté */
-    border: solid $border transparent; /* !importanté */
-    border-radius: 4px;
-    &:before {
-      content: '';
-      position: absolute;
-      top: 0; right: 0; bottom: 0; left: 0;
-      z-index: -1;
-      margin: -$border; /* !importanté */
-      border-radius: inherit; /* !importanté */
-      background: linear-gradient(to bottom, $pink, $red);
-    }
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    margin: -$border; /* !importanté */
+    border-radius: inherit; /* !importanté */
+    background: linear-gradient(to bottom, $pink, $red);
   }
 }
+
+
 
 
 
