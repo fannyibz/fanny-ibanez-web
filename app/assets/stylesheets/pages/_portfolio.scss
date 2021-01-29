@@ -54,6 +54,7 @@
 .project-description-2 {
   // position: absolute;
   max-width: 420px;
+  min-width: 420px;
   margin-right: 40px;
   padding: 30px 0px 0px 50px;
   h2 {
@@ -100,6 +101,23 @@
 }
 
 
+  .gradient-btn:hover {
+    font-weight: 500;
+    &:before {
+      margin: -2px;
+    }
+  }
+
+// // Medium devices (tablets, 768px and up)
+// @media (max-width: 768px) { ... }
+
+// // Large devices (desktops, 992px and up)
+// @media (max-width: 992px) {
+
+// }
+
+// // Extra large devices (large desktops, 1200px and up)
+// @media (max-width: 1200px) { ... }
 
 
 

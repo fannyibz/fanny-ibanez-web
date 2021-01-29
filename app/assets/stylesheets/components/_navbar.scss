@@ -23,8 +23,8 @@
       background: linear-gradient(to top, $pink, $red);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-      font-size: 25px;
-      margin-bottom: 15px;
+      font-size: 35px;
+      margin-bottom: 25px;
       display: block;
       line-height: 51px;
       height: 51px;
@@ -32,19 +32,23 @@
       text-decoration: none;
     }
     a:hover {
-      font-size: 40px;
+      font-size: 45px;
     }
   }
   .nav-icon {
     top: 30%;
   }
   .nav-link {
-    font-size: 25px;
+
     list-style: none;
     position: absolute;
     bottom: 5%;
     a {
+      font-size: 25px;
       margin-bottom: 0px;
+    }
+     a:hover {
+      font-size: 35px;
     }
   }
 }
