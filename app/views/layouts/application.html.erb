@@ -27,7 +27,7 @@
         <%= link_to portfolio_path, class: "navbar-icon-box #{"navbar-icon-box-active" if controller.controller_name == "pages" && action_name == "portfolio"}" do %>
           <i class="fas fa-eye"></i>
         <% end %>
-        <%= link_to contact_path, class: "navbar-icon-box #{"navbar-icon-box-active" if controller.controller_name == "pages" && action_name == "contact"}" do %>
+        <%= link_to new_email_contact_path, class: "navbar-icon-box #{"navbar-icon-box-active" if controller.controller_name == "email_contacts" && action_name == "new"}" do %>
           <i class="fas fa-envelope"></i>
         <% end %>
       </nav>

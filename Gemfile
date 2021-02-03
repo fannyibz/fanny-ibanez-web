@@ -31,7 +31,6 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
 gem 'simple_form'
-
 group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
@@ -42,6 +41,8 @@ group :development, :test do
 end
 
 group :development do
+  # Catch email to display them
+  gem "letter_opener"
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 4.1.0'
   # Display performance information such as SQL time and flame graphs for each request in your browser.

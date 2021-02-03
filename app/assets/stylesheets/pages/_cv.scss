@@ -2,6 +2,10 @@
   padding: 0px 42px 0px 160px;
 }
 
+.info-box {
+
+}
+
 
 .skill-box {
     border-radius: 8px;
@@ -17,12 +21,16 @@
 .box-cv {
   padding: 20px 42px 20px 42px;
   margin: 0px 0px 0px 80px;
+  display: flex;
 }
 
 .skill-list {
+  min-width: 750px;
+  border: 1px solid #ffffff33;
+  border-radius: 50px;
   margin: 35px 0px;
   i {
-    font-size: 60px;
+    font-size: 50px;
     background: linear-gradient(to top, $pink, $red);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;

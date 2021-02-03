@@ -6,6 +6,6 @@ class PagesController < ApplicationController
   end
 
   def contact
+    @email_contact = EmailContact.new
   end
-
 end
