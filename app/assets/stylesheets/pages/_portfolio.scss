@@ -1,20 +1,8 @@
-.container-portfolio {
-  padding: 0px 0px 0px 130px;
-  // min-width: 1400px;
-}
-
-.title-portfolio {
-  padding: 50px 42px 0px 160px;
-  margin-bottom: 80px;
-  // h1 {
-  //   border-bottom: 1px solid white;
-  // }
-}
 
 
 .project-box {
   display: flex;
-  margin-top: 160px;
+  margin: 160px 90px;
 }
 
 .mockup-box {
@@ -65,48 +53,7 @@
   }
 }
 
-.gradient-btn {
-  position: relative;
-  bottom: -130px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40%;
-  height: 50px;
-  margin: auto;
-  position: relative;
-  padding: 1px 1px;
-  box-sizing: border-box;
-  $border: 1px;
-  color: white;
-  background: $dark;
-  background-clip: padding-box; /* !importanté */
-  border: solid $border transparent; /* !importanté */
-  border-radius: 4px;
-  a {
-  text-decoration: none;
-  background: linear-gradient(to top, $pink, $red);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  &:before {
-    content: '';
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    z-index: -1;
-    margin: -$border; /* !importanté */
-    border-radius: inherit; /* !importanté */
-    background: linear-gradient(to bottom, $pink, $red);
-  }
-}
 
-
-  .gradient-btn:hover {
-    font-weight: 500;
-    &:before {
-      margin: -2px;
-    }
-  }
 
 // // Medium devices (tablets, 768px and up)
 // @media (max-width: 768px) { ... }

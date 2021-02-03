@@ -20,9 +20,7 @@
     text-align: center;
     position: absolute;
     .navbar-icon-box {
-      background: linear-gradient(to top, $pink, $red);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      color: #ffffff2b;
     }
     a {
       color: $gray-light;
@@ -35,11 +33,10 @@
       text-decoration: none;
     }
     a:hover {
-      font-size: 45px;
+      font-size: 40px;
     }
   }
   .navbar-icon-box-active {
-
     i {
       font-size: 40px;
       color: white;
@@ -62,6 +59,7 @@
     list-style: none;
     position: absolute;
     bottom: 5%;
+    text-align: center;
     a {
       font-size: 25px;
       margin-bottom: 0px;

@@ -1,10 +1,7 @@
-.container-cv {
-  margin: 0px;
-  padding:  80px 42px 0px 160px;
-  a {
-    color: #eaeaea99;
-  }
+.info-cv {
+  padding: 0px 42px 0px 160px;
 }
+
 
 .skill-box {
     border-radius: 8px;
@@ -18,12 +15,12 @@
   }
 
 .box-cv {
-  border-top: 1px solid white;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 42px 20px 42px;
+  margin: 0px 0px 0px 80px;
 }
 
 .skill-list {
-  margin: 80px 0px;
+  margin: 35px 0px;
   i {
     font-size: 60px;
     background: linear-gradient(to top, $pink, $red);
@@ -51,3 +48,35 @@
     max-width: 40%;
 }
 
+.btn-cv {
+  position: absolute;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12%;
+  height: 50px;
+  margin-right: 60px;
+  padding: 1px 1px;
+  box-sizing: border-box;
+  $border: 1px;
+  background: $dark;
+  background-clip: padding-box; /* !importanté */
+  border: solid $border transparent; /* !importanté */
+  border-radius: 4px;
+  a {
+  text-decoration: none;
+  background: linear-gradient(to top, $pink, $red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    margin: -$border; /* !importanté */
+    border-radius: inherit; /* !importanté */
+    background: linear-gradient(to bottom, $pink, $red);
+  }
+}

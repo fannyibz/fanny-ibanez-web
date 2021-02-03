@@ -32,9 +32,15 @@ h2  {
 }
 
 h3 {
-  color:  #eaeaea99;
+  color: #eaeaea99;
   font-weight: 100;
   font-size: 18px;
+}
+
+h4 {
+  text-align: right;
+  font-weight: 100;
+  color: #f3e5f5;
 }
 
 p {
@@ -48,7 +54,21 @@ p {
   margin-left: 170px;
 }
 
-.container {
-  height: 100vh;
-  margin-top: 80px;
+// .container {
+//   height: 100vh;
+//   margin-top: 80px;
+// }
+
+.container-all {
+  margin: 30px;
 }
+
+.title {
+  padding: 50px 42px 0px 160px;
+  margin-bottom: 30px;
+  h1 {
+    border-bottom: 1px solid #ffffff33;
+    padding-bottom: 20px;
+  }
+}
+
