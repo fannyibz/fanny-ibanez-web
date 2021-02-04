@@ -1,9 +1,24 @@
 .info-cv {
   padding: 0px 42px 0px 160px;
+  h4 {
+    strong {
+      font-size: 25px;
+      text-decoration: none;
+      background: linear-gradient(to top, $pink, $red);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    a {
+      color: #f3e5f5;
+    }
+  }
 }
 
 .info-box {
-
+  margin: 50px 0px 0px 0px;
+  h3 {
+    padding: 0px 42px 0px 160px;
+  }
 }
 
 
@@ -21,14 +36,10 @@
 .box-cv {
   padding: 20px 42px 20px 42px;
   margin: 0px 0px 0px 80px;
-  display: flex;
 }
 
 .skill-list {
   min-width: 750px;
-  border: 1px solid #ffffff33;
-  border-radius: 50px;
-  margin: 35px 0px;
   i {
     font-size: 50px;
     background: linear-gradient(to top, $pink, $red);
@@ -45,9 +56,10 @@
     margin: 20px 0px;
   }
   p {
-    font-size: 18px;
-    color: white;
-    font-weight: 100;
+    font-family: $skill;
+    font-size: 14px;
+    color: #ffffff85;
+    font-weight: 400;
     margin: 0px;
   }
 }
@@ -57,6 +69,7 @@
 }
 
 .btn-cv {
+  min-width: 170px;
   position: absolute;
   right: 0px;
   display: flex;

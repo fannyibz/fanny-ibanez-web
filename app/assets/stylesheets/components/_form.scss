@@ -1,0 +1,9 @@
+.gradient-btn {
+  input {
+    text-decoration: none;
+    background: linear-gradient(to top, $pink, $red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+}

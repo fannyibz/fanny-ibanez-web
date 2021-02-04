@@ -2,7 +2,7 @@
 
 .project-box {
   display: flex;
-  margin: 160px 90px;
+  margin: 75px 90px;
 }
 
 .mockup-box {
@@ -32,17 +32,21 @@
 .project-description-1 {
   // position: absolute;
   max-width: 360px;
-  min-width: 360px;
+  min-width: 300px;
   padding: 30px 50px 0px 0px;
   p {
     text-align: right;
+  }
+  .gradient-btn {
+    min-width: 130px;
+    max-width: 130px;
   }
 }
 
 .project-description-2 {
   // position: absolute;
   max-width: 420px;
-  min-width: 420px;
+  min-width: 330px;
   margin-right: 40px;
   padding: 30px 0px 0px 50px;
   h2 {
@@ -50,6 +54,10 @@
   }
   p {
     text-align: left;
+  }
+  .gradient-btn {
+    min-width: 130px;
+    max-width: 130px;
   }
 }
 
