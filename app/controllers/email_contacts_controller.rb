@@ -28,7 +28,7 @@ class EmailContactsController < ApplicationController
 
     respond_to do |format|
       if @email_contact.save
-        EmailContactMailer.with(email_contact: @email_contact).new_email_contact_email.deliver_later
+        # EmailContactMailer.with(email_contact: @email_contact).new_email_contact_email.deliver_later
         format.html { redirect_to root_path, notice: 'Email contact was successfully created.' }
         format.json { render :show, status: :created, location: @email_contact }
       else

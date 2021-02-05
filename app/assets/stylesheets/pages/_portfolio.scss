@@ -40,6 +40,14 @@
   .gradient-btn {
     min-width: 130px;
     max-width: 130px;
+    a {
+      width: 100vh;
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      bottom: -9px;
+      position: relative;
+    }
   }
 }
 
@@ -58,6 +66,14 @@
   .gradient-btn {
     min-width: 130px;
     max-width: 130px;
+    a {
+      width: 100vh;
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      bottom: -9px;
+      position: relative;
+    }
   }
 }
 

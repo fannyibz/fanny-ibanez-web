@@ -31,11 +31,10 @@
   }
 }
 
-
-  .gradient-btn:hover {
-    font-weight: 500;
-    &:before {
-      margin: -2px;
-    }
+.gradient-btn:hover {
+  font-weight: 500;
+  &:before {
+    margin: -2px;
   }
+}
 
