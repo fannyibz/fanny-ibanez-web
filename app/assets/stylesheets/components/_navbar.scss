@@ -25,6 +25,7 @@
     a {
       color: $gray-light;
       font-size: 30px;
+      transition: 0.4s font-size ease-in-out;
       margin-bottom: 25px;
       display: block;
       line-height: 51px;
@@ -33,12 +34,13 @@
       text-decoration: none;
     }
     a:hover {
-      font-size: 40px;
+      font-size: 44px;
     }
   }
   .navbar-icon-box-active {
     i {
-      font-size: 40px;
+      font-size: 44px;
+      transition: 0.4s font-size ease-in-out;
       color: white;
       background: linear-gradient(to top, $pink, $red);
       -webkit-background-clip: text;
@@ -58,10 +60,11 @@
   .nav-link {
     list-style: none;
     position: absolute;
-    bottom: 5%;
+    bottom: 12%;
     text-align: center;
     a {
       font-size: 25px;
+      transition: 0.4s font-size ease-in-out;
       margin-bottom: 0px;
       background: linear-gradient(to top, $pink, $red);
       -webkit-background-clip: text;
@@ -71,9 +74,12 @@
       font-size: 35px;
     }
   }
+
 }
 
-
+nav#github-icon {
+  bottom: 7%;
+}
 
 
 
