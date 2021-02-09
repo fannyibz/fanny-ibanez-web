@@ -21,20 +21,21 @@ require("channels")
 // External imports
 import "bootstrap";
 
+
 // Internal imports, e.g:
-// import { initSelect2 } from '../components/init_select2';
+import { loadDynamicBannerText } from '../components/title_typed';
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
-  // initSelect2();
-
-  // initSweetalert('#sweet-alert-demo', {
-  //   title: "A nice alert",
-  //   text: "This is a great alert, isn't it?",
-  //   icon: "success",
-  //   timer: 3000
-  // }, submitForm);
+  loadDynamicBannerText();
 });
+
+// initSweetalert('#sweet-alert-demo', {
+//   title: "A nice alert",
+//   text: "This is a great alert, isn't it?",
+//   icon: "success",
+//   timer: 3000
+// }, submitForm);
 
 // const submitForm =(value) => {
 //   console.log(value);
