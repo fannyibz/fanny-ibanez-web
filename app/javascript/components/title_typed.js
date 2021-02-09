@@ -5,7 +5,7 @@ const loadDynamicBannerText = () => {
     console.log('yes');
     new Typed('#banner-typed-text', {
       strings: [ "web developer."],
-      typeSpeed: 150,
+      typeSpeed: 120,
       loop: false
     });
   }
