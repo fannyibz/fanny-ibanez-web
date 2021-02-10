@@ -28,6 +28,7 @@
     margin: -$border; /* !importanté */
     border-radius: inherit; /* !importanté */
     background: linear-gradient(to bottom, $pink, $red);
+    transition: 0.4s font-size ease-in-out;
   }
 }
 

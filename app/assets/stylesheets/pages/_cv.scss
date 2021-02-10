@@ -68,36 +68,4 @@
     max-width: 40%;
 }
 
-.btn-cv {
-  min-width: 170px;
-  position: absolute;
-  right: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 12%;
-  height: 50px;
-  margin-right: 60px;
-  padding: 1px 1px;
-  box-sizing: border-box;
-  $border: 1px;
-  background: $dark;
-  background-clip: padding-box; /* !importanté */
-  border: solid $border transparent; /* !importanté */
-  border-radius: 4px;
-  a {
-  text-decoration: none;
-  background: linear-gradient(to top, $pink, $red);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  &:before {
-    content: '';
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    z-index: -1;
-    margin: -$border; /* !importanté */
-    border-radius: inherit; /* !importanté */
-    background: linear-gradient(to bottom, $pink, $red);
-  }
-}
+
