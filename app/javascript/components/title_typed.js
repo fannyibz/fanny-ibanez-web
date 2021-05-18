@@ -11,4 +11,4 @@ const loadDynamicBannerText = () => {
   }
 }
 
-export { loadDynamicBannerText };
+export { loadDynamicBannerText }
